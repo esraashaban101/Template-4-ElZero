@@ -1655,6 +1655,7 @@ margin: 20px 0;
 }
 .files-page .Files-Statistics .icon i{
     font-size: 22px;
+   
     
 }
 .files-page .red{
@@ -1717,6 +1718,12 @@ padding: 20px ;
 .files-page .file-content img{
     width: 80px;
     height: 80px;
+    transition: 0.3s;
+}
+.files-page .files-content .file-content:hover img
+{
+transform: rotate(8deg);
+cursor: pointer;
 }
 .files-page .file-content i{
     color: var(--grey-color);
