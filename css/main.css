@@ -1600,6 +1600,14 @@ margin: 20px 0;
     border: 0;
  
 }
+@media (max-width:400px)
+{
+    .friends-page .link
+    {
+        margin-bottom: 10px;
+        display: block;
+    }
+}
 /* end friends page */
 
 /* start files page */
